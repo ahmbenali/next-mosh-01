@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-export default function NewUserPage() {
+function NewUserPage() {
   const router = useRouter();
 
   return (
@@ -13,3 +13,5 @@ export default function NewUserPage() {
     </div>
   );
 }
+
+export default NewUserPage;

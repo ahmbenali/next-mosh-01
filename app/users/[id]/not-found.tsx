@@ -1,5 +1,5 @@
 interface Props {
-  id: string;
+params:  { id: string;}
 }
 
 function UserNotfoundPage() {

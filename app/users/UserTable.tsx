@@ -30,7 +30,7 @@ async function UserTable({ sortOrder, by }: Props) {
           sortOrder === "email" ? (user) => user.email : (user) => user.name,
         );
 
-  // *** UI RETURNED ***
+  //t *** UI RETURNED ***
   return (
     <table className="table-bordered table">
       <thead>

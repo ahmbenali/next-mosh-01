@@ -35,3 +35,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# this file is only for own and intern test
+app/api/auth/token/route.ts
+
+# make sure to add this (with / at the end) before executing:
+#  npm run preview-email else it will be thousends of file created.
+.react-email/
